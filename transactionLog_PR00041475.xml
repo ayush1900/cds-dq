@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<POSLog xmlns="http://www.nrf-arts.org/IXRetail/namespace/">
+    <Transaction TrainingModeFlag="false" TypeCode="RETAIL_AUTH" VATReceiptFlag="true" StoreRegisterID="X52-01">
+        <WorkstationID>X52</WorkstationID>
+        <SequenceNumber>1</SequenceNumber>
+        <TransactionID>PR00041475</TransactionID>
+        <OperatorID AssociateID="1713"/>
+        <CurrencyCode>MXN</CurrencyCode>
+        <ReceiptDateTime TypeCode="RefundExpiry">2023-05-06T20:08:06.000Z</ReceiptDateTime>
+        <CustomerOrderTransaction OrderChannel="IN_STORE" TypeCode="Transaction" TransactionStatus="RETAIL_AUTH" ReceiptID="X52-X52-01-2023-00000720" CartID="PR00041475" TransactionID="X52-X52-01-20230406140736-6-3">
+            <LineItem>
+                <Sale ProductClass="Merchandise" FulfillmentType="IN_STORE" OrderItemID="1">
+                    <Associate>
+                        <AssociateID AssociateID="1713" OperatorType="SalesAssociateID"/>
+                    </Associate>
+                    <RetailPriceModifier MethodCode="Promotion" AutoPromotion="true" MerchantPromotionId="DESCUENTO 50%">
+                        <SequenceNumber>1</SequenceNumber>
+                        <Amount Action="Subtract">799.500</Amount>
+                        <PromotionID TypeCode="PROMOTION">c9e67962-597f-4392-8414-eb3e41b9bac7</PromotionID>
+                        <Quantity>1</Quantity>
+                    </RetailPriceModifier>
+                    <Tax TaxClass="GENERIC" LineItemTotalTax="true">
+                        <TaxableAmount>799.50</TaxableAmount>
+                        <Amount>110.28</Amount>
+                    </Tax>
+                    <Tax TaxType="COUNTRY" TaxCode="MX-COUNTRY-ANY-ANY-IVA" TaxName="IVA" TaxClass="GENERIC" LineItemTotalTax="false">
+                        <TaxableAmount>799.50</TaxableAmount>
+                        <Amount>110.28</Amount>
+                        <Percent>16.0</Percent>
+                        <TaxPerUnitAmount>110.28</TaxPerUnitAmount>
+                    </Tax>
+                    <Item>
+                        <ItemID Name="JWINONAA PINK MULTI">JWINONAAPKM030</ItemID>
+                        <POSIdentity POSIDType="GTIN">
+                            <POSItemID>196361832128</POSItemID>
+                        </POSIdentity>
+                        <RegularSalesUnitPrice>1599.00</RegularSalesUnitPrice>
+                        <ActualSalesUnitPrice>1599.00</ActualSalesUnitPrice>
+                        <ExtendedAmount>799.50</ExtendedAmount>
+                        <DiscountAmount>799.50</DiscountAmount>
+                        <Quantity>1</Quantity>
+                    </Item>
+                </Sale>
+                <SequenceNumber xmlns:ns2="http://www.nrf-arts.org/IXRetail/namespace/" xmlns="">1</SequenceNumber>
+            </LineItem>
+            <LineItem>
+                <Sale ProductClass="Merchandise" FulfillmentType="IN_STORE" OrderItemID="3">
+                    <Associate>
+                        <AssociateID AssociateID="1713" OperatorType="SalesAssociateID"/>
+                    </Associate>
+                    <RetailPriceModifier MethodCode="Promotion" AutoPromotion="true" MerchantPromotionId="DESCUENTO 60%">
+                        <SequenceNumber>1</SequenceNumber>
+                        <Amount Action="Subtract">1499.400</Amount>
+                        <PromotionID TypeCode="PROMOTION">7b3ced21-3074-4f72-8f5d-f1a0a9006a71</PromotionID>
+                        <Quantity>1</Quantity>
+                    </RetailPriceModifier>
+                    <Tax TaxClass="GENERIC" LineItemTotalTax="true">
+                        <TaxableAmount>999.60</TaxableAmount>
+                        <Amount>137.88</Amount>
+                    </Tax>
+                    <Tax TaxType="COUNTRY" TaxCode="MX-COUNTRY-ANY-ANY-IVA" TaxName="IVA" TaxClass="GENERIC" LineItemTotalTax="false">
+                        <TaxableAmount>999.60</TaxableAmount>
+                        <Amount>137.88</Amount>
+                        <Percent>16.0</Percent>
+                        <TaxPerUnitAmount>137.88</TaxPerUnitAmount>
+                    </Tax>
+                    <Item>
+                        <ItemID Name="MARCELO WHITE">MARC22S1002055</ItemID>
+                        <POSIdentity POSIDType="GTIN">
+                            <POSItemID>196361161549</POSItemID>
+                        </POSIdentity>
+                        <RegularSalesUnitPrice>2499.00</RegularSalesUnitPrice>
+                        <ActualSalesUnitPrice>2499.00</ActualSalesUnitPrice>
+                        <ExtendedAmount>999.60</ExtendedAmount>
+                        <DiscountAmount>1499.40</DiscountAmount>
+                        <Quantity>1</Quantity>
+                    </Item>
+                </Sale>
+                <SequenceNumber xmlns:ns2="http://www.nrf-arts.org/IXRetail/namespace/" xmlns="">2</SequenceNumber>
+            </LineItem>
+            <LineItem>
+                <Sale ProductClass="Merchandise" FulfillmentType="IN_STORE" OrderItemID="2">
+                    <Associate>
+                        <AssociateID AssociateID="1713" OperatorType="SalesAssociateID"/>
+                    </Associate>
+                    <RetailPriceModifier MethodCode="Promotion" AutoPromotion="true" MerchantPromotionId="DESCUENTO 50%">
+                        <SequenceNumber>1</SequenceNumber>
+                        <Amount Action="Subtract">1249.500</Amount>
+                        <PromotionID TypeCode="PROMOTION">c9e67962-597f-4392-8414-eb3e41b9bac7</PromotionID>
+                        <Quantity>1</Quantity>
+                    </RetailPriceModifier>
+                    <Tax TaxClass="GENERIC" LineItemTotalTax="true">
+                        <TaxableAmount>1249.50</TaxableAmount>
+                        <Amount>172.34</Amount>
+                    </Tax>
+                    <Tax TaxType="COUNTRY" TaxCode="MX-COUNTRY-ANY-ANY-IVA" TaxName="IVA" TaxClass="GENERIC" LineItemTotalTax="false">
+                        <TaxableAmount>1249.50</TaxableAmount>
+                        <Amount>172.34</Amount>
+                        <Percent>16.0</Percent>
+                        <TaxPerUnitAmount>172.34</TaxPerUnitAmount>
+                    </Tax>
+                    <Item>
+                        <ItemID Name="MASTERY BLACK">MAST04S1001055</ItemID>
+                        <POSIdentity POSIDType="GTIN">
+                            <POSItemID>195945084311</POSItemID>
+                        </POSIdentity>
+                        <RegularSalesUnitPrice>2499.00</RegularSalesUnitPrice>
+                        <ActualSalesUnitPrice>2499.00</ActualSalesUnitPrice>
+                        <ExtendedAmount>1249.50</ExtendedAmount>
+                        <DiscountAmount>1249.50</DiscountAmount>
+                        <Quantity>1</Quantity>
+                    </Item>
+                </Sale>
+                <SequenceNumber xmlns:ns2="http://www.nrf-arts.org/IXRetail/namespace/" xmlns="">3</SequenceNumber>
+            </LineItem>
+            <LineItem>
+                <Tender TenderType="CreditCard" TransactionID="X52-X52-01-20230406140736-6-3">
+                    <Amount>3048.60</Amount>
+                    <Authorization>
+                        <ReferenceNumber>000000000376</ReferenceNumber>
+                        <ReceiptText>[{"key":"merchantName","value":"STEVE MADDEN LA PERLA","display":"Nombre del comerciante"},{"key":"affiliationNum","value":"8754268","display":"Afiliación"},{"key":"merchantId","value":"000084208551077","display":"Identificación del comerciante"},{"key":"tid","value":"02981007","display":"Identificación de la terminal"},{"key":"txdate","value":"04/06/2023","display":"Fecha"},{"key":"txtime","value":"2:07:35 p.m.","display":"Hora"},{"key":"pan","value":"************7708","display":"Tarjeta"},{"key":"cardDetails","value":"Credito/BBVA Mexico S.A/Visa","display":"Detalles de la tarjeta"},{"key":"cardEntry","value":"Chip","display":"Ingreso de la tarjeta"},{"key":"approvedWithPin","value":"","display":"approvedWithPin"},{"key":"paymentMode","value":"Aprobado en línea","display":"Modo de pago"},{"key":"approvalCode","value":"027206","display":"Código de aprobación"},{"key":"ARQC","value":"F754A090DA3549E8","display":"ARQC"},{"key":"TSI","value":"E800","display":"TSI"},{"key":"AID","value":"A0000000031010","display":"AID"},{"key":"promotion","value":"6 MESES SIN INTERESES","display":"Promoción"}]</ReceiptText>
+                    </Authorization>
+                    <CreditDebit CardType="Credito/BBVA Mexico S.A/Visa">
+                        <PrimaryAccountNumber Cryptogram="PARTIAL_DATA">7708</PrimaryAccountNumber>
+                    </CreditDebit>
+                </Tender>
+                <SequenceNumber xmlns:ns2="http://www.nrf-arts.org/IXRetail/namespace/" xmlns="">4</SequenceNumber>
+            </LineItem>
+            <LineItem>
+                <Tax xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ItemTaxType">
+                    <TaxableAmount>3048.60</TaxableAmount>
+                    <Amount>420.50</Amount>
+                </Tax>
+                <SequenceNumber xmlns:ns2="http://www.nrf-arts.org/IXRetail/namespace/" xmlns="">5</SequenceNumber>
+            </LineItem>
+            <Delivery>
+                <Address AddressType="Delivery">
+                    <AddressLine/>
+                    <AddressLine/>
+                    <Territory TypeCode="STATE"/>
+                    <Country/>
+                </Address>
+            </Delivery>
+            <Customer>
+                <EMail/>
+            </Customer>
+            <Survey/>
+        </CustomerOrderTransaction>
+        <TillID>1713</TillID>
+        <BusinessDayDate>2023-04-06Z</BusinessDayDate>
+        <BeginDateTime>2023-04-06T20:08:06.000Z</BeginDateTime>
+        <EndDateTime>2023-04-06T20:08:06.000Z</EndDateTime>
+    </Transaction>
+</POSLog>
